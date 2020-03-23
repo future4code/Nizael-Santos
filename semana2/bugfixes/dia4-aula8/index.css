@@ -21,12 +21,6 @@ input {
     width: 500px;
 }
 
-a {
-    position: absolute; 
-    top: 100%; 
-    right: 41%; 
-}
-
 button:focus {
     color: white;
 }
@@ -72,16 +66,9 @@ div img {
   *
   **/
 
-/* mensagem da seção azul */
-div > p, ol, h3 { 
-    position: relative; 
-    top: 25px;
-    
-}
-
-  #container-de-descricao {
+#container-de-descricao {
     background-color: #2274a5;
-    color: white;  
+    color: white;
 }
 
 #container-de-descricao>ol {
@@ -110,12 +97,8 @@ div:last-child {
     text-align: center;
 }
 
-div, th {
-    text-align: center;
-} 
-
 table {
-    width: 60%; 
+    width: 60%;
 }
 
 td button {
