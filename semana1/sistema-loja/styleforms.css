@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    margin: 0; 
+  } 
+
+.topnav {
+  overflow: hidden; 
+  background-color: #999999;  
+  display: block; 
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 15px;  
+  text-align: center;
+  text-shadow: 1px 1px black; 
+  padding: 50px; 
+}
+

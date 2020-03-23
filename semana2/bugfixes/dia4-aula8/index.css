@@ -13,12 +13,27 @@ h2 {
     background-color: #fe7e02;
     padding: 10px 5px 10px 5px;
     color: white;
-    text-align: center;
+    text-align: center; 
+} 
+
+div > p, ol, h3 {   
+    position: relative; 
+    top: 100px;    
+}
+
+a {
+    position: absolute;
+    margin-top: 25%;  
+    left: 40%;
 }
 
 input {
     height: 20px;
-    width: 500px;
+    width: 500px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-bottom: 1px solid;
 }
 
 button:focus {
@@ -56,7 +71,9 @@ div img {
 }
 
 .icone {
-    height: 15px;
+    background-color: white;
+    height: 3%; 
+    width: 3%;
 }
 
 
@@ -98,7 +115,10 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    width: 60%; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 td button {
@@ -106,9 +126,12 @@ td button {
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    color: black;
+    color: black;  
 }
 
+td button:hover{
+    background-color: #ffaf43;
+}
 .container-do-search {
     margin-top: 20px;
     height: 100px;
@@ -116,6 +139,9 @@ td button {
 
 
 #back-button {
+    position: absolute; 
+    bottom: 40px; 
+    left: 72gitpx;
     background-color: white;
     width: 100px;
     height: 20px;

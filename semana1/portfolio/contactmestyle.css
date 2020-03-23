@@ -1,0 +1,95 @@
+* {
+    box-sizing: content-box;
+} 
+
+body { 
+    margin: 0; 
+} 
+
+/* Header navbar */ 
+.navbar{
+    overflow: hidden; 
+    margin: 0; 
+    padding: 25px; 
+    background-color: #1884bd;
+}
+
+.navbar a { 
+        display: inline; 
+        margin-right: 83%;  
+        padding: 7px;
+        border: 3px solid whitesmoke;
+        border-radius: 25px; 
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: 25px;
+        text-align: center;   
+        text-decoration: none;  
+}  
+
+#h1 {
+    display: inline;
+    margin: 36%;     
+} 
+
+#form1 { 
+    display: inline-table;
+    margin-left: 35%; 
+    margin-right: 35%; 
+    margin-top: 2%; 
+    text-align: center;
+} 
+
+#fname{
+    width: 340px; 
+    height: 20px;
+} 
+
+#femail{
+    width: 340px;
+    height: 20px;
+} 
+
+#fsubject {
+    width: 340px;
+    height: 20px;    
+} 
+
+#fmessage {
+    width: 340px; 
+    height:150px;
+} 
+
+#fbutton {
+    width: 150px; 
+    height:20px; 
+    background-color: #1884bd;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px; 
+    color: whitesmoke; 
+    cursor: pointer; 
+} 
+
+.footer {
+    position: fixed;  
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    padding: 50px;
+    background-color: #1884bd;  
+} 
+
+.instagramimg {
+    position: fixed;
+    margin-right: 46%; 
+    margin-left: 46%; 
+    margin-top: -3%;       
+}
+
+.linkedinimg {   
+    position: fixed;
+    margin-left: 38%; 
+    margin-right: 38%; 
+    margin-top: -2%; 
+    border: 7px;
+    border-radius: 25px;
+}
