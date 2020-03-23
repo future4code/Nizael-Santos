@@ -9,35 +9,60 @@ body {
 /* Header navbar */ 
 .navbar{
     overflow: hidden; 
-    background-color: white; 
+    background-color: #1884bd; 
     margin: 0; 
-    padding: 25px; 
-} 
+    padding: 50px;
+}
 
-.center img{
-    border-radius: 50%;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-} 
-
-.right p{
-    position: absolute;
-    right: 180px;
-    width: 400px; 
-    border: 3px solid;
-    padding:3px; 
+.center h1{
+    display: block;  
+    margin-right: 42%; 
+    margin-left: 42%;
+    margin-top: -45px;
+    width: 55px;
+    padding: 50px;
+    background-color: #1884bd;
+    border: 3px solid whitesmoke; 
+    border-radius: 25px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: whitesmoke;
     text-align: center;
-} 
+}  
 
-.left p{
+#p1{
     position: absolute;
-    left: 180px; 
+    margin-right: 32%; 
+    margin-left: 33%; 
+    margin-top: 3%;
     width: 400px; 
-    border:3px solid;
     padding: 3px; 
+    font-size: 40px;
+    color: whitesmoke;
     text-align: center;
-} 
+}  
+
+#p2{
+    position: absolute;
+    margin-right: 32%; 
+    margin-left: 33%; 
+    margin-top: 6%;
+    width: 400px; 
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#p3{
+    position: absolute;
+    margin-right: 32%; 
+    margin-left: 32%; 
+    margin-top: 12%;
+    width: 450px; 
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
 
 .footer {
     position: fixed;  
@@ -45,17 +70,22 @@ body {
     bottom: 0; 
     width: 100%; 
     padding: 50px;
-    background-color: white;  
+    background-color: #1884bd;  
     text-align: center;
 } 
 
-button{
+a{
     position: fixed; 
-    margin: -40px -177px;
+    margin: -35px -215px;
     height: 50px;  
-    width: 20%; 
-    font-size: 16px; 
-    background-color: black; 
+    width: 20%;   
+    padding: 5px; 
+    border: 3px solid whitesmoke; 
+    border-radius: 25px; 
+    background-color: #1884bd; 
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace; 
+    text-decoration: none;
     color: whitesmoke; 
-    
-}
+    cursor: pointer;    
+}  
