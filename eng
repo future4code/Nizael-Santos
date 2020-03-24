@@ -1,0 +1,20 @@
+[33mcommit 9a7cded93f8be76527cf67da712533a851aadc26[m[33m ([m[1;36mHEAD -> [m[1;32msemana1-aula3[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32msemana1-aula2[m[33m)[m
+Merge: b9e595b eea5e52
+Author: NNevesSantos <62241204+NNevesSantos@users.noreply.github.com>
+Date:   Wed Mar 18 09:00:07 2020 -0300
+
+    Merge pull request #1 from future4code/semana1-aula2
+    
+    alterei duas palavras
+
+[33mcommit eea5e5282f987bb39e3e04fb770995737d23f599[m[33m ([m[1;31morigin/semana1-aula2[m[33m)[m
+Author: NNevesSantos <nizael.neves@outlook.com>
+Date:   Tue Mar 17 13:53:15 2020 -0300
+
+    alterei duas palavras
+
+[33mcommit b9e595bb09028c21b00295d78dad9f22f66e30d4[m[33m ([m[1;32mmaster[m[33m)[m
+Author: João Vinicius Alves <jvp.alves@hotmail.com>
+Date:   Tue Mar 17 07:19:10 2020 -0300
+
+    Initial commit
