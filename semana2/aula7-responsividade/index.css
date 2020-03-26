@@ -3,11 +3,14 @@
 } 
 
 body {
+    max-width: 100%; 
+    min-width: 25%;
     margin: 0; 
 }
 
 .redboxnav {
-    width: 100%px; 
+    max-width: 100%px; 
+    min-width: 25%;
     height: 100px; 
     border: 1px solid whitesmoke;
     background-color: red;    
