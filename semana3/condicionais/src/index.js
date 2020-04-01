@@ -1,4 +1,4 @@
-// exercício 1 //
+d // exercício 1 //
 
 // const respostaDoUsuario = prompt("Digite o número que você quer testar?")
 // const numero = Number(respostaDoUsuario)
@@ -46,7 +46,14 @@ a. para o usuário/consumidor obter o preço da fruta que escolher.
 
 b. O preço da fruta  maça  é  R$  5 
 
-c. 
+c. obter os valores através do programa. 
+
+let laranjap = 3.5 
+let maçap = 2.25 
+let bananasp = 5.0
+let uvap = 0.30 
+resultado = 2 * 3.5 + 2.25 + 3 * 5 + 0.30 
+resultado = 24.55
 
 d. "O preço da fruta Pêra é R$ 5. Isto aconte pois como não há nenhuma instrução que indique que assim que
 ele encontrar o que o usuário procura ele deve parar ele continuará a ler o programa*/   
@@ -125,8 +132,18 @@ if(number1 && number2 != number3) {
 
 // exercício 5 // 
 
+const animal = prompt("vertebrado ou invertebrado?")
 
-    
+if(animal === "vertebrado") {
+  const pelos = prompt("Possuí pelos?, y/n") 
+if(pelos === "y") {
+  console.log("é ser humano ou mamífero não humano") 
+src} else { (animal === "invertebrado")
+  pelos = prompt("Possuí Pelos?, y/n")
+}
+} else { 
+  const penas = prompt("Possuí penas?, y/n")
+}   
 
 
 
