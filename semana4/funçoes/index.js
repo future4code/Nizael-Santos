@@ -42,7 +42,15 @@ undefined, o elemento não existe na array. */
 
 // b // 
 
-// 3 // 
+/* Sim, a função em questão esta sendo executada para verificar o tamanho do array e em seguida
+verificando se determinado valor existe e em qual posição esta alcoado. */
+
+// 3 //  
+
+/* recebendo os valores do parâmetro , array, executando as operações e retornado os novos valores em um nova 
+array. criarArray. */
+
+
 
 function metodo(array) {
     let resultadoA = 0;
