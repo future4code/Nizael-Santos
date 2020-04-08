@@ -4,9 +4,9 @@ function addTask() {
     const newTask = input.value
     
     if(newTask === ""){
-        alert("Please, type a task")
+        alert("Please, type something!")
     } else {
-        const listaDeTarefas = document.querySelector("ul")
+        const listaDeTarefas = document.querySelector("ol")
 
         listaDeTarefas.innerHTML += "<li>" + newTask + "</li>"
     

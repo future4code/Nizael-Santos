@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Planner</title>
+    <title>Schedule Planner</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css"> 
+    <link rel="stylesheet" type="text/css" href="index.css"> 
     <script src="index.js" defer></script>
 </head>
-<body style="background-image:url(https://img.pngio.com/water-reflection-on-pool-floor-background-abstract-texture-stock-water-reflection-png-1920_1080.png);">  
+<body>  
 
-<div>
+<div class="caixa">
+    <input id= "inputcamp" placeholder="What You Will Do?" type="text">
+    
+<div class="dropdown">
+    <button id="meubutton">Insert Task</button>    
+    
+    <div class="dropdown-content">
+        <a onclick="addTask()">Sunday</a>
+        <a onclick="addTask()">Monday</a>
+        <a onclick="addTask()">Tuesday</a>
+        <a onclick="addTask()">Wednesday</a>
+        <a onclick="addTask()">Thursday</a>
+        <a onclick="addTask()">Friday</a>
+        <a onclick="addTask()">Saturday</a>
+        
+    </div>
 
-    <input placeholder="type your task here" type="text">
-    <button onclick="addTask()">Insert Task</button>   
-    <ul></ul>
-
+</div>
 </div> 
 
-<h1>Sunday</h1>
-<h1>Monday</h1>
-<h1>Tuesday</h1>
-<h1>Wednesday</h1>
-<h1>Thursday</h1>
-<h1>Friday</h1>
-<h1>Saturday</h1>
+<div class="container">
 
+<h2>Sunday</h2> 
+<ol></ol>
 
+<h2>Monday</h2> 
+<ol></ol>
 
-    
+<h2>Tuesday</h2>
+<ol></ol>
+
+<h2>Wednesday</h2>
+<ol></ol>
+
+<h2>Thursday</h2>
+<ol></ol>
+
+<h2>Friday</h2>
+<ol></ol>
+
+<h2>Saturday</h2>
+<ol></ol>
+
+</div>
 
 
 
