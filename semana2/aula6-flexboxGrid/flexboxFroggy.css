@@ -1,0 +1,161 @@
+/* exercise-first */
+#pond {
+    display: flex;
+    justify-content: flex-end; 
+} 
+
+/* exercise-second */
+#pond {
+    display: flex;
+    justify-content: center; 
+}  
+
+/* exercise-third */
+#pond {
+    display: flex;
+    justify-content: space-around; 
+}  
+
+/* exercise-fourth */
+#pond {
+    display: flex;
+    justify-content: space-between;
+}  
+
+/* exercise-fifth */
+#pond {
+    display: flex;
+    align-items: flex-end; 
+}  
+
+/* exercise-sixth */
+#pond {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}  
+
+/* exercise-seventh */
+#pond {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-end;
+}  
+
+/* exercise-eighth */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+}  
+
+/* exercise-ninth */
+#pond {
+    display: flex;
+    flex-direction: column; 
+}  
+
+/* exercise-tenth */
+#pond {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-end;
+}  
+
+/* exercise-eleventh */
+#pond {
+    flex-direction: column; 
+    justify-content: flex-end;
+} 
+
+/* exercise-twelveth */
+#pond {
+    flex-direction: column-reverse; 
+    justify-content: space-between;
+} 
+
+/* exercise-tourteenth */
+#pond {
+    flex-direction: row-reverse; 
+    justify-content: center; 
+    align-items: flex-end;
+} 
+
+/* exercise-fourteenth */
+#pond {
+    display: flex;
+}  
+.yellow {
+    order: 1; 
+}
+ 
+
+/* exercise-fifteenth */
+#pond {
+    display: flex;
+  }
+.red {
+    order: -1;
+} 
+
+/* exercise-sixteenth */
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+.yellow {
+    align-self: flex-end;
+}
+
+/* exercise-seventeenth */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+.yellow {
+  order: 1; 
+  align-self: flex-end;
+}
+
+/* exercise-eighteenth */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+/* exercise-nineteenth */
+#pond {
+display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap; 
+} 
+
+/* exercise-twenty first */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* exercise-twenty second */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+} 
+
+/* exercise-twenty third */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+} 
+
+/* exercise-twenty fourth */
+#pond {
+    display: flex;
+    flex-direction: column-reverse; 
+    flex-wrap: wrap-reverse; 
+    align-content: space-between; 
+    justify-content: center;
+}
